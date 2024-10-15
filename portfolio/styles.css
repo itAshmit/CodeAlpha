@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+    background: linear-gradient(145deg, #0a0a0a, #111111);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #e91e63;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+}
+
+.profile-img {
+    flex: 1;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-text {
+    flex: 2;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.profile-text h1 {
+    font-size: 48px;
+}
+
+.profile-text h2 {
+    font-size: 50px;
+    color: #e91e63;
+}
+
+.profile-text p {
+    margin-top: 10px;
+    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.profile-text span {
+    color: #e91e63;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #e91e63;
+    margin-right: 15px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+}
+
+#skills, #contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#skills h2, #contact h2 {
+    font-size: 36px;
+    color: #e91e63;
+}
+
+#skills p, #contact p {
+    padding: 8px;
+    font-size: 18px;
+}
